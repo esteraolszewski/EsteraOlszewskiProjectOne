@@ -1,0 +1,62 @@
+@use "./variables";
+
+// Fonts Imported
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap');
+
+
+
+// html {
+//     /* if we set our root element font-size to 125%, then 1 rem = 20px */
+//     font-size: 125%;
+//   }
+
+h1, h2, h3, h4, h5, .darkButton, .read, .find {
+    font-family: variables.$headingFont;
+}
+
+p, .mainMenu {
+    font-family: variables.$otherFont;
+    font-size: 20px;
+    
+}
+
+h1, h3, h5 {
+    color: variables.$darkBlue;
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 68px;
+}
+
+h2 {
+    color: variables.$blackOne;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 1.7px;
+}
+
+h3, h5 {
+    font-size: 43px;
+    line-height: 58px;
+    letter-spacing: 2.7px;
+}
+
+h4 {
+    color: variables.$white;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 2.5px;
+}
+
+footer, .flexContainer {
+    p {
+        color: variables.$white;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+}

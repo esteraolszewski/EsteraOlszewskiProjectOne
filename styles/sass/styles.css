@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -235,4 +237,49 @@ html {
   left: 0;
   right: 0;
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, .darkButton, .read, .find {
+  font-family: "Pacifico";
+}
+
+p, .mainMenu {
+  font-family: "Lato";
+  font-size: 20px;
+}
+
+h1, h3, h5 {
+  color: #1A315C;
+}
+
+h1 {
+  font-size: 58px;
+  line-height: 68px;
+}
+
+h2 {
+  color: #1E1713;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 1.7px;
+}
+
+h3, h5 {
+  font-size: 43px;
+  line-height: 58px;
+  letter-spacing: 2.7px;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 58px;
+  letter-spacing: 2.5px;
+}
+
+footer p, .flexContainer p {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=styles.css.map */
