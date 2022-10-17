@@ -257,6 +257,10 @@ h1 {
   line-height: 68px;
 }
 
+.mainMenu {
+  text-transform: uppercase;
+}
+
 h2 {
   color: #1E1713;
   font-size: 30px;
@@ -282,4 +286,55 @@ footer p, .flexContainer p {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header {
+  background-image: url(../../../textilee-assets/header-home.jpg);
+}
+header .header {
+  background: #CCEDFB;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gallery {
+  background: #1A315C;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+section {
+  background: #CCEDFB;
+  display: flex;
+}
+
+.discover section {
+  background: #1A315C;
+}
+
+.backgroundImg section {
+  background-image: url(../../../textilee-assets/banner.jpg);
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1260px;
+}
+
+ul {
+  list-style: none;
+}
+ul a:link,
+ul a:visited,
+ul a:hover,
+ul a:active {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

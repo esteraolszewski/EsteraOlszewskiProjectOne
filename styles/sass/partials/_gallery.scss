@@ -1,0 +1,10 @@
+@use "./variables";
+
+.gallery {
+    background: variables.$darkBlue;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    
+}

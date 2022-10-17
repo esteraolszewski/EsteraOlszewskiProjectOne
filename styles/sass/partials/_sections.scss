@@ -1,0 +1,18 @@
+@use "./variables";
+
+
+// WHY NOT WORKING?????
+
+
+ section {
+    background: variables.$skyBlue;
+    display: flex;
+}
+
+.discover section {
+    background: variables.$darkBlue;
+}
+
+.backgroundImg section {
+    background-image: url(../../../textilee-assets/banner.jpg);
+}
