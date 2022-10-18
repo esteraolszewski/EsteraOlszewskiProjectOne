@@ -288,9 +288,13 @@ footer p, .flexContainer p {
   letter-spacing: 2px;
 }
 
-.mainMenu {
+nav .mainMenu {
   display: flex;
   justify-content: space-evenly;
+  margin-left: 850px;
+}
+nav a:hover {
+  border-bottom: 3px solid #0CADC0;
 }
 
 header {
@@ -314,12 +318,10 @@ section {
   background: #CCEDFB;
   display: flex;
 }
-
-.discover section {
+section .flexContainer {
   background: #1A315C;
 }
-
-.backgroundImg section {
+section .backgroundImg {
   background-image: url(../../../textilee-assets/banner.jpg);
 }
 

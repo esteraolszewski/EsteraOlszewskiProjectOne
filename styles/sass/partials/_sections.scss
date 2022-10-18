@@ -7,12 +7,14 @@
  section {
     background: variables.$skyBlue;
     display: flex;
-}
 
-.discover section {
-    background: variables.$darkBlue;
-}
 
-.backgroundImg section {
-    background-image: url(../../../textilee-assets/banner.jpg);
+    .flexContainer {
+        background: variables.$darkBlue;
+    }
+
+    .backgroundImg {
+        background-image: url(../../../textilee-assets/banner.jpg);
+    }
+
 }

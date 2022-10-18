@@ -1,7 +1,19 @@
 @use "./variables";
 
-.mainMenu {
-    display: flex;
-    justify-content: space-evenly;
+
+nav {
+
+    
+        .mainMenu {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 850px;
+            
+        }
+                a:hover {
+                    border-bottom: 3px solid variables.$turquoise;
+                }
+
+
     
 }
