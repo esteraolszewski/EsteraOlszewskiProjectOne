@@ -255,6 +255,7 @@ h1, h3, h5 {
 h1 {
   font-size: 58px;
   line-height: 68px;
+  padding-bottom: 50px;
 }
 
 .mainMenu {
@@ -297,13 +298,13 @@ nav a:hover {
   border-bottom: 3px solid #0CADC0;
 }
 
-header {
+header .wrapper {
   background-image: url(../../../textilee-assets/header-home.jpg);
 }
 header .header {
   background: #CCEDFB;
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .gallery {
@@ -317,6 +318,7 @@ header .header {
 section {
   background: #CCEDFB;
   display: flex;
+  flex-direction: row-reverse;
 }
 section .flexContainer {
   background: #1A315C;

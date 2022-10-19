@@ -3,14 +3,21 @@
 header {
 
     // WHY NOT WORKING????
-    background-image: url(../../../textilee-assets/header-home.jpg);
+    .wrapper {
+        background-image: url(../../../textilee-assets/header-home.jpg);
+        
+    }
+
+   
    
     
     
     .header {
         background: variables.$skyBlue;
-        width: 100vw;
-        height: 100vh;
+        display: flex;
+        align-items: center;
+        
         
     }
+
 }
