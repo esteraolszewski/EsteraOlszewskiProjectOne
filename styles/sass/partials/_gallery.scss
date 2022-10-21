@@ -1,6 +1,6 @@
 @use "./variables";
 
-.gallery {
+#mainContent, .gallery {
     background: variables.$teal;
     width: 100vw;
     display: flex;

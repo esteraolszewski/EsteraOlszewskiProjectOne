@@ -2,22 +2,52 @@
 
 header {
 
-    // WHY NOT WORKING????
-    .wrapper {
-        background-image: url(../../../textilee-assets/header-home.jpg);
+     
+        background-image: url(../../textilee-assets/header-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 100vh;
         
-    }
+    
 
-   
+   .scissors {
+    position: relative;
+    top: 180px; 
+   }
    
     
     
     .header {
         background: variables.$skyBlue;
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // flex-direction: row-reverse;
+        // justify-content: center;
+
+        .imgContainer {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            background-color: variables.$turquoise;
+            
+        }
+
+        .textContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
         
-        
+        .darkButton {
+            background-color: variables.$darkBlue;
+            padding-left: 20px; 
+            padding-right: 20px;
+            padding-top: 2px;
+            padding-bottom: 4px;
+            color: variables.$white;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 2px;
+        }
     }
 
 }

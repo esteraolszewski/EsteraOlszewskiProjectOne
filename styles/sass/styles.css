@@ -248,7 +248,7 @@ p, .mainMenu {
   font-size: 20px;
 }
 
-h1, h3, h5 {
+h1, h3, h5, .mainMenu a {
   color: #1A315C;
 }
 
@@ -291,6 +291,17 @@ footer p, .flexContainer p {
   letter-spacing: 2px;
 }
 
+.darkButton, .read, .find {
+  text-decoration: none;
+}
+
+.read {
+  color: #1E1713;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
 nav .mainMenu {
   display: flex;
   justify-content: space-evenly;
@@ -300,16 +311,43 @@ nav a:hover {
   border-bottom: 3px solid #0CADC0;
 }
 
-header .wrapper {
-  background-image: url(../../../textilee-assets/header-home.jpg);
+header {
+  background-image: url(../../textilee-assets/header-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100vh;
+}
+header .scissors {
+  position: relative;
+  top: 180px;
 }
 header .header {
   background: #CCEDFB;
+}
+header .header .imgContainer {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
+  background-color: #0CADC0;
+}
+header .header .textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+header .header .darkButton {
+  background-color: #1A315C;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
 }
 
-.gallery {
+#mainContent, .gallery {
   background: #114e54;
   width: 100vw;
   display: flex;
@@ -317,16 +355,53 @@ header .header {
   padding: 50px;
 }
 
-section {
+#mainContent, section {
   background: #CCEDFB;
   display: flex;
   flex-direction: row-reverse;
 }
-section .flexContainer {
+#mainContent .iconFlex p, section .iconFlex p {
+  color: #1E1713;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+#mainContent .flexContainer, section .flexContainer {
   background: #114e54;
 }
-section .backgroundImg {
-  background-image: url(../../../textilee-assets/banner.jpg);
+#mainContent .read, section .read {
+  background-color: #c1cdf6;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+#mainContent .find, section .find {
+  background-color: #1A315C;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+#mainContent .search, section .search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mainContent .search .image, section .search .image {
+  background-repeat: no-repeat;
+}
+#mainContent .search h5, section .search h5 {
+  margin-bottom: 0.1px;
+}
+#mainContent .search p, section .search p {
+  text-align: center;
 }
 
 .wrapper {
@@ -347,4 +422,9 @@ ul a:active {
 
 footer {
   background-color: black;
+  display: flex;
+}
+footer p {
+  position: relative;
+  left: 400px;
 }/*# sourceMappingURL=styles.css.map */

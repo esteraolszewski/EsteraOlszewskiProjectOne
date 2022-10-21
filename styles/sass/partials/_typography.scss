@@ -22,7 +22,7 @@ p, .mainMenu {
     font-size: 20px;
 }
 
-h1, h3, h5 {
+h1, h3, h5, .mainMenu a {
     color: variables.$darkBlue;
 }
 
@@ -65,4 +65,15 @@ footer, .flexContainer {
         line-height: 28px;
         letter-spacing: 2px;
     }
+}
+
+.darkButton, .read, .find {
+    text-decoration: none;
+}
+
+.read {
+    color: variables.$blackOne;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
 }

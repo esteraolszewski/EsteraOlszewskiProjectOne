@@ -4,19 +4,68 @@
 // WHY NOT WORKING?????
 
 
- section {
+ #mainContent, section {
     background: variables.$skyBlue;
     display: flex;
     flex-direction: row-reverse;
+
+    .iconFlex p {
+        color: variables.$blackOne;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 2px;
+    }
 
 
     .flexContainer {
         background: variables.$teal;
     }
 
-    // Not working????
-    .backgroundImg {
-        background-image: url(../../../textilee-assets/banner.jpg);
+
+    .read {
+        background-color: variables.$button;
+        padding-left: 20px; 
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .find {
+        background-color: variables.$darkBlue;
+        padding-left: 20px; 
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        color: variables.$white;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        }
+
+
+        h5 {
+            margin-bottom: 0.1px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .banner {
+        // 
+        background-image: url(../../textilee-assets/banner.jpg);
+        
+         //    Background Image not showing???
     }
 
 }
