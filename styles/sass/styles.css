@@ -317,25 +317,36 @@ header {
   background-size: cover;
   max-height: 100vh;
 }
-header .scissors {
-  position: relative;
+
+#mainContent, .gallery {
+  background: #114e54;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+main .scissors {
+  position: absolute;
   top: 180px;
+  left: -10px;
 }
-header .header {
+main .header {
   background: #CCEDFB;
+  position: relative;
 }
-header .header .imgContainer {
+main .header .imgContainer {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   background-color: #0CADC0;
 }
-header .header .textContainer {
+main .header .textContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-header .header .darkButton {
+main .header .darkButton {
   background-color: #1A315C;
   padding-left: 20px;
   padding-right: 20px;
@@ -345,14 +356,6 @@ header .header .darkButton {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
-}
-
-#mainContent, .gallery {
-  background: #114e54;
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
 }
 
 #mainContent, section {
@@ -366,8 +369,12 @@ header .header .darkButton {
   line-height: 28px;
   letter-spacing: 2px;
 }
+#mainContent .iconFlex, section .iconFlex {
+  display: flex;
+}
 #mainContent .flexContainer, section .flexContainer {
   background: #114e54;
+  display: flex;
 }
 #mainContent .read, section .read {
   background-color: #c1cdf6;
@@ -402,7 +409,9 @@ header .header .darkButton {
 }
 
 .banner {
-  background-image: url(../../textilee-assets/banner.jpg);
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .wrapper {

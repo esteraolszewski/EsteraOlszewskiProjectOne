@@ -60,12 +60,30 @@ main {
             padding-left: 50px;
         }
 
-    
+    .form {
 
-        
+        input[type=text] {
+            background-color: variables.$skyBlue;
+            border: none;
+            border-bottom: 2px solid variables.$turquoise;
+            padding: 20px;
+        }
+
+        input[type=email] {
+            background-color: variables.$skyBlue;
+            border: none;
+            border-bottom: 2px solid variables.$turquoise;
+            padding: 20px;
+        }
+
+        textarea {
+            background-color: variables.$skyBlue;
+            border: none;
+            border: 2px solid variables.$turquoise;
+            padding: 20px;
+        }
     }
 
-    
     button {
         background-color: variables.$darkBlue;
         width: 60%;
@@ -74,5 +92,6 @@ main {
         padding-bottom: 5px;
         margin-top: 40px;
         margin-bottom: 80px;
+    }
     }
 }

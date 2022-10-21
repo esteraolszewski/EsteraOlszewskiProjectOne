@@ -15,7 +15,20 @@ main {
             padding: 20px;
         }
 
-        
+        input[type=email] {
+            background-color: variables.$teal;
+            border: none;
+            border-bottom: 2px solid variables.$turquoise;
+            padding: 20px;
+        }
+
+        textarea {
+            background-color: variables.$teal;
+            border: none;
+            border: 2px solid variables.$turquoise;
+            padding: 20px;
+        }
+
 
         button {
             background-color: variables.$button;

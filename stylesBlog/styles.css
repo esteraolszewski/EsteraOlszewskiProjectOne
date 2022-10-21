@@ -321,7 +321,6 @@ header {
   background-image: url(../textilee-assets/blog-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 100vh;
 }
 
 main section {
@@ -370,7 +369,25 @@ main section .commentTwo img {
 main section .firstComment, main section .secondComment {
   padding-left: 50px;
 }
-main button {
+main section .form input[type=text] {
+  background-color: #CCEDFB;
+  border: none;
+  border-bottom: 2px solid #0CADC0;
+  padding: 20px;
+}
+main section .form input[type=email] {
+  background-color: #CCEDFB;
+  border: none;
+  border-bottom: 2px solid #0CADC0;
+  padding: 20px;
+}
+main section .form textarea {
+  background-color: #CCEDFB;
+  border: none;
+  border: 2px solid #0CADC0;
+  padding: 20px;
+}
+main section button {
   background-color: #1A315C;
   width: 60%;
   border: none;

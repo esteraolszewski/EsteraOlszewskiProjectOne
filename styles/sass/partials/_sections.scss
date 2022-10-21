@@ -1,7 +1,44 @@
 @use "./variables";
 
 
-// WHY NOT WORKING?????
+main {
+    .scissors {
+        position: absolute;
+        top: 180px;
+        left: -10px; 
+       }
+        
+        .header {
+            background: variables.$skyBlue;
+            position: relative;
+    
+            .imgContainer {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                background-color: variables.$turquoise;
+                                
+            }
+    
+            .textContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .darkButton {
+                background-color: variables.$darkBlue;
+                padding-left: 20px; 
+                padding-right: 20px;
+                padding-top: 2px;
+                padding-bottom: 4px;
+                color: variables.$white;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 2px;
+            }
+        }
+}
 
 
  #mainContent, section {
@@ -11,14 +48,21 @@
 
     .iconFlex p {
         color: variables.$blackOne;
-            font-size: 20px;
-            line-height: 28px;
-            letter-spacing: 2px;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+
+    .iconFlex {
+        display: flex;
+    
+        
     }
 
 
     .flexContainer {
         background: variables.$teal;
+        display: flex;
     }
 
 
@@ -62,9 +106,11 @@
     }
 
     .banner {
-        // 
-        background-image: url(../../textilee-assets/banner.jpg);
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
         
-         //    Background Image not showing???
+        
+         
     }
 

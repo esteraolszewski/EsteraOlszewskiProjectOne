@@ -310,6 +310,18 @@ main .form input[type=text] {
   border-bottom: 2px solid #0CADC0;
   padding: 20px;
 }
+main .form input[type=email] {
+  background-color: #114e54;
+  border: none;
+  border-bottom: 2px solid #0CADC0;
+  padding: 20px;
+}
+main .form textarea {
+  background-color: #114e54;
+  border: none;
+  border: 2px solid #0CADC0;
+  padding: 20px;
+}
 main .form button {
   background-color: #c1cdf6;
   border: none;
