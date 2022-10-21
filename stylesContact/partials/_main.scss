@@ -1,0 +1,9 @@
+@use "./variables";
+
+main {
+    background-color: variables.$skyBlue;
+
+    .form {
+        background-color: variables.$teal;
+    }
+}
