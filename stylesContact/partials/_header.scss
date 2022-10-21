@@ -2,6 +2,8 @@
 
 header {
 
-    // NOT SHOWING???
-    background-image: url(../../textilee-assets/contact-header.jpg);
+    background-image: url(../textilee-assets/contact-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
 }

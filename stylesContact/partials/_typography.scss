@@ -21,7 +21,7 @@ h2 {
     letter-spacing: 1.7px;
 }
 
-h1, .mainMenu {
+h1, .mainMenu a {
     color: variables.$darkBlue;
 }
 
@@ -33,6 +33,7 @@ input, footer {
     text-transform: uppercase;
     line-height: 29px;
     letter-spacing: 1.4px;
+    font-size: 20px;
 }
 
 h1 {

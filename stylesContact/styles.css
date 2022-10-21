@@ -254,7 +254,7 @@ h2 {
   letter-spacing: 1.7px;
 }
 
-h1, .mainMenu {
+h1, .mainMenu a {
   color: #1A315C;
 }
 
@@ -266,6 +266,7 @@ input, footer {
   text-transform: uppercase;
   line-height: 29px;
   letter-spacing: 1.4px;
+  font-size: 20px;
 }
 
 h1 {
@@ -290,7 +291,10 @@ nav a:hover {
 }
 
 header {
-  background-image: url(../../textilee-assets/contact-header.jpg);
+  background-image: url(../textilee-assets/contact-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100vh;
 }
 
 main {
@@ -298,6 +302,27 @@ main {
 }
 main .form {
   background-color: #114e54;
+  width: 60%;
+}
+main .form input[type=text] {
+  background-color: #114e54;
+  border: none;
+  border-bottom: 2px solid #0CADC0;
+  padding: 20px;
+}
+main .form button {
+  background-color: #c1cdf6;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+main section {
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -318,4 +343,9 @@ ul a:active {
 
 footer {
   background-color: black;
+  display: flex;
+}
+footer p {
+  position: relative;
+  left: 400px;
 }/*# sourceMappingURL=styles.css.map */

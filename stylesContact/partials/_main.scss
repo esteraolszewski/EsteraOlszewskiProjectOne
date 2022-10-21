@@ -5,5 +5,34 @@ main {
 
     .form {
         background-color: variables.$teal;
+        width: 60%;
+        
+
+        input[type=text] {
+            background-color: variables.$teal;
+            border: none;
+            border-bottom: 2px solid variables.$turquoise;
+            padding: 20px;
+        }
+
+        
+
+        button {
+            background-color: variables.$button;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            margin: 40px;
+
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        
     }
 }
