@@ -247,11 +247,11 @@ p, .mainMenu, li, input, a {
   font-family: "Lato";
 }
 
-h1, .mainMenu, #bold {
+h1, .mainMenu a, #bold {
   color: #1A315C;
 }
 
-h3, #boldOne, #white, #white ul, button, footer {
+h3, #white, #whiteOne, #white ul, button, footer {
   color: #FFFFFF;
 }
 
@@ -265,6 +265,7 @@ h1 {
   text-transform: uppercase;
   line-height: 29px;
   letter-spacing: 1.4px;
+  font-size: 20px;
 }
 
 h2 {
@@ -288,6 +289,23 @@ p, #white, input {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
+  text-decoration: none;
+}
+
+#boldOne {
+  font-weight: bold;
+  font-family: "Lato";
+  color: #c1cdf6;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#whiteOne, button {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
 }
 
 nav .mainMenu {
@@ -300,7 +318,10 @@ nav a:hover {
 }
 
 header {
-  background-image: url();
+  background-image: url(../textilee-assets/blog-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100vh;
 }
 
 main section {
@@ -311,6 +332,52 @@ main section .colour {
 }
 main section .side {
   background-color: #114e54;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+main section #fabric {
+  position: relative;
+  bottom: 180px;
+  width: 60%;
+}
+main section .collection {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+main section .commentOne {
+  width: 60%;
+  display: flex;
+  padding-bottom: 60px;
+}
+main section .commentOne img {
+  width: 60%;
+  height: 60%;
+  margin-top: 20px;
+}
+main section .commentTwo {
+  width: 60%;
+  display: flex;
+  padding-bottom: 60px;
+}
+main section .commentTwo img {
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+}
+main section .firstComment, main section .secondComment {
+  padding-left: 50px;
+}
+main button {
+  background-color: #1A315C;
+  width: 60%;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .wrapper {
@@ -331,4 +398,9 @@ ul a:active {
 
 footer {
   background-color: black;
+  display: flex;
+}
+footer p {
+  position: relative;
+  left: 400px;
 }/*# sourceMappingURL=styles.css.map */

@@ -6,10 +6,73 @@ main {
 
         .colour {
             background-color: variables.$teal;
+    
         }
 
         .side {
             background-color: variables.$teal;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
         }
+
+        #fabric {
+            position: relative;
+            bottom: 180px; 
+            width: 60%;
+            
+        }
+
+        .collection {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+    
+        }
+
+        .commentOne {
+            width: 60%;
+            display: flex;
+            padding-bottom: 60px;
+
+                img {
+                    width: 60%;
+                    height: 60%;
+                    margin-top: 20px;
+                }
+        }
+
+        .commentTwo {
+            width: 60%;
+            display: flex;
+            padding-bottom: 60px;
+
+                img {
+                    width: 40%;
+                    height: 40%;
+                    margin-top: 20px;
+                }
+        }
+
+
+        .firstComment, .secondComment {
+            padding-left: 50px;
+        }
+
+    
+
+        
+    }
+
+    
+    button {
+        background-color: variables.$darkBlue;
+        width: 60%;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 80px;
     }
 }

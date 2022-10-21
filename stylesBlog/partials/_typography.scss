@@ -14,11 +14,11 @@ p, .mainMenu, li, input, a {
     font-family: variables.$otherFont;
 }
 
-h1, .mainMenu, #bold {
+h1, .mainMenu a, #bold {
     color: variables.$darkBlue;
 }
 
-h3, #boldOne, #white, #white ul, button, footer {
+h3, #white, #whiteOne, #white ul, button, footer {
     color: variables.$white;
 }
 
@@ -32,6 +32,7 @@ h1 {
     text-transform: uppercase;
     line-height: 29px;
     letter-spacing: 1.4px;
+    font-size: 20px;
 }
 
 h2 {
@@ -55,4 +56,25 @@ p, #white, input {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 2px;
+    text-decoration: none;
 }
+
+#boldOne {
+    font-weight: bold;
+    font-family: variables.$otherFont;
+    color: variables.$button;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+
+// Need to add bullet points back!
+#whiteOne, button {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    
+}
+
