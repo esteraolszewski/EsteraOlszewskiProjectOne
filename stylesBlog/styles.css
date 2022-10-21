@@ -239,17 +239,20 @@ html {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, .darkButton, .read, .find {
+h1, h2, h3, h4, button {
   font-family: "Pacifico";
 }
 
-p, .mainMenu {
+p, .mainMenu, li, input, a {
   font-family: "Lato";
-  font-size: 20px;
 }
 
-h1, h3, h5 {
+h1, .mainMenu, #bold {
   color: #1A315C;
+}
+
+h3, #boldOne, #white, #white ul, button, footer {
+  color: #FFFFFF;
 }
 
 h1 {
@@ -271,21 +274,17 @@ h2 {
   letter-spacing: 1.7px;
 }
 
-h3, h5 {
-  font-size: 43px;
-  line-height: 58px;
-  letter-spacing: 2.7px;
-}
-
-h4 {
-  color: #FFFFFF;
+h3, h4 {
   font-size: 40px;
-  line-height: 58px;
-  letter-spacing: 2.5px;
+  letter-spacing: 4.3px;
 }
 
-footer p, .flexContainer p {
-  color: #FFFFFF;
+.font {
+  font-size: 35px;
+  letter-spacing: 2.9px;
+}
+
+p, #white, input {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
@@ -300,33 +299,18 @@ nav a:hover {
   border-bottom: 3px solid #0CADC0;
 }
 
-header .wrapper {
-  background-image: url(../../../textilee-assets/header-home.jpg);
-}
-header .header {
-  background: #CCEDFB;
-  display: flex;
-  align-items: center;
+header {
+  background-image: url();
 }
 
-.gallery {
-  background: #114e54;
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
+main section {
+  background-color: #CCEDFB;
 }
-
-section {
-  background: #CCEDFB;
-  display: flex;
-  flex-direction: row-reverse;
+main section .colour {
+  background-color: #114e54;
 }
-section .flexContainer {
-  background: #114e54;
-}
-section .backgroundImg {
-  background-image: url(../../../textilee-assets/banner.jpg);
+main section .side {
+  background-color: #114e54;
 }
 
 .wrapper {

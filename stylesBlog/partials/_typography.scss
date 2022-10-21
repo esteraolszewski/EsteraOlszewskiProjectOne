@@ -6,24 +6,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap');
 
-
-
-// html {
-//     /* if we set our root element font-size to 125%, then 1 rem = 20px */
-//     font-size: 125%;
-//   }
-
-h1, h2, h3, h4, h5, .darkButton, .read, .find {
+h1, h2, h3, h4, button {
     font-family: variables.$headingFont;
 }
 
-p, .mainMenu {
+p, .mainMenu, li, input, a {
     font-family: variables.$otherFont;
-    font-size: 20px;
 }
 
-h1, h3, h5 {
+h1, .mainMenu, #bold {
     color: variables.$darkBlue;
+}
+
+h3, #boldOne, #white, #white ul, button, footer {
+    color: variables.$white;
 }
 
 h1 {
@@ -45,24 +41,18 @@ h2 {
     letter-spacing: 1.7px;
 }
 
-h3, h5 {
-    font-size: 43px;
-    line-height: 58px;
-    letter-spacing: 2.7px;
-}
-
-h4 {
-    color: variables.$white;
+h3, h4 {
     font-size: 40px;
-    line-height: 58px;
-    letter-spacing: 2.5px;
+    letter-spacing: 4.3px;
 }
 
-footer, .flexContainer {
-    p {
-        color: variables.$white;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 2px;
-    }
+.font {
+    font-size: 35px;
+    letter-spacing: 2.9px;
+}
+
+p, #white, input {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
 }

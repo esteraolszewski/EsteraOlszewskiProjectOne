@@ -1,0 +1,15 @@
+@use "./variables";
+
+main {
+    section {
+        background-color: variables.$skyBlue;
+
+        .colour {
+            background-color: variables.$teal;
+        }
+
+        .side {
+            background-color: variables.$teal;
+        }
+    }
+}
