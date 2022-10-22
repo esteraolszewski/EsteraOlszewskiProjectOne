@@ -1,11 +1,12 @@
 @use "./variables";
 
-#mainContent, .gallery {
+
+.gallery {
     background: variables.$teal;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
-    
+   
     
 }

@@ -315,10 +315,12 @@ header {
   background-image: url(../../textilee-assets/header-home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 100vh;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-#mainContent, .gallery {
+.gallery {
   background: #114e54;
   width: 100vw;
   display: flex;
@@ -328,12 +330,8 @@ header {
 
 main .scissors {
   position: absolute;
-  top: 180px;
+  top: 500px;
   left: -10px;
-}
-main .header {
-  background: #CCEDFB;
-  position: relative;
 }
 main .header .imgContainer {
   display: flex;
@@ -344,7 +342,7 @@ main .header .imgContainer {
 main .header .textContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 main .header .darkButton {
   background-color: #1A315C;
@@ -371,10 +369,43 @@ main .header .darkButton {
 }
 #mainContent .iconFlex, section .iconFlex {
   display: flex;
+  flex-wrap: wrap;
+}
+#mainContent .iconFlex .textOne, section .iconFlex .textOne {
+  width: 50%;
+}
+#mainContent .iconFlex .textOne p, section .iconFlex .textOne p {
+  text-align: left;
+}
+#mainContent .iconFlex .textTwo, section .iconFlex .textTwo {
+  width: 50%;
+}
+#mainContent .iconFlex .textTwo p, section .iconFlex .textTwo p {
+  text-align: left;
+}
+#mainContent .iconFlex .textThree, section .iconFlex .textThree {
+  width: 50%;
+}
+#mainContent .iconFlex .textThree p, section .iconFlex .textThree p {
+  text-align: left;
+}
+#mainContent .iconFlex .textFour, section .iconFlex .textFour {
+  width: 50%;
+}
+#mainContent .iconFlex .textFour p, section .iconFlex .textFour p {
+  text-align: left;
 }
 #mainContent .flexContainer, section .flexContainer {
   background: #114e54;
   display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+#mainContent .flexContainer .partOne, section .flexContainer .partOne {
+  text-align: right;
+}
+#mainContent .flexContainer .partThree, section .flexContainer .partThree {
+  text-align: left;
 }
 #mainContent .read, section .read {
   background-color: #c1cdf6;

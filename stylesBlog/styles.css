@@ -321,6 +321,9 @@ header {
   background-image: url(../textilee-assets/blog-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 main section {
