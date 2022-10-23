@@ -344,6 +344,9 @@ main .top {
 main .top .imgContainer {
   width: 40%;
 }
+main .top .imgContainer img {
+  margin-left: 240px;
+}
 main .top .textContainer {
   width: 60%;
 }

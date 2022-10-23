@@ -13,7 +13,10 @@ main {
             
             .imgContainer {
                 width: 40%; 
-                     
+                
+                img {
+                    margin-left: 240px;
+                }
             }
     
             .textContainer {
@@ -40,13 +43,14 @@ main {
                 letter-spacing: 2px;
             }
         }
+
 }
 
 
  #mainContent, section {
     background: variables.$skyBlue;
     padding-bottom: 80px;
-    
+       
 
 
     .iconFlex p {
