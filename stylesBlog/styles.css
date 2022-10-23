@@ -308,7 +308,13 @@ p, #white, input, textarea {
   letter-spacing: 2px;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 nav .mainMenu {
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   margin-left: 850px;
@@ -322,7 +328,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 60vh;
   width: 100vw;
 }
 
@@ -337,9 +343,11 @@ main .two {
 main .two .collect {
   background-color: #114e54;
   width: 52%;
+  box-shadow: 10px 12px 0 8px #0CADC0;
 }
 main .two .collect #fabric {
   transform: translate(-2px, -200px);
+  box-shadow: 32px 20px 0 0 #0CADC0;
 }
 main .two .collect .collection {
   display: flex;

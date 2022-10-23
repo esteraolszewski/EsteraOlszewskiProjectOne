@@ -10,10 +10,12 @@ main {
     
         .collect {
             background-color: variables.$teal;
-            width: 52%; 
+            width: 52%;
+            box-shadow: 10px 12px 0 8px variables.$turquoise; 
 
             #fabric {
                 transform: translate(-2px, -200px);
+                box-shadow: 32px 20px 0 0 variables.$turquoise;
             }
 
             .collection {
