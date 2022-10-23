@@ -302,7 +302,13 @@ footer p, .flexContainer p {
   letter-spacing: 2px;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 nav .mainMenu {
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   margin-left: 850px;
@@ -345,7 +351,8 @@ main .top .imgContainer {
   width: 40%;
 }
 main .top .imgContainer img {
-  margin-left: 240px;
+  margin-left: 190px;
+  box-shadow: -8px 11px 0px 2px #0CADC0;
 }
 main .top .textContainer {
   width: 60%;
@@ -386,6 +393,22 @@ main .top .darkButton {
   width: 50%;
   margin-top: 40px;
 }
+#mainContent .iconFlex .textOne .first, section .iconFlex .textOne .first {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+#mainContent .iconFlex .textOne .firstOne, section .iconFlex .textOne .firstOne {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+#mainContent .iconFlex .textOne svg, section .iconFlex .textOne svg {
+  background-color: #0CADC0;
+  border-radius: 50%;
+}
 #mainContent .iconFlex .textOne p, section .iconFlex .textOne p {
   text-align: left;
   margin-top: -30px;
@@ -393,6 +416,10 @@ main .top .darkButton {
 #mainContent .iconFlex .textTwo, section .iconFlex .textTwo {
   width: 50%;
   margin-top: 40px;
+}
+#mainContent .iconFlex .textTwo svg, section .iconFlex .textTwo svg {
+  background-color: #0CADC0;
+  border-radius: 50%;
 }
 #mainContent .iconFlex .textTwo p, section .iconFlex .textTwo p {
   text-align: left;
@@ -402,12 +429,20 @@ main .top .darkButton {
   width: 50%;
   margin-bottom: 90px;
 }
+#mainContent .iconFlex .textThree svg, section .iconFlex .textThree svg {
+  background-color: #0CADC0;
+  border-radius: 50%;
+}
 #mainContent .iconFlex .textThree p, section .iconFlex .textThree p {
   text-align: left;
   margin-top: -30px;
 }
 #mainContent .iconFlex .textFour, section .iconFlex .textFour {
   width: 50%;
+}
+#mainContent .iconFlex .textFour svg, section .iconFlex .textFour svg {
+  background-color: #0CADC0;
+  border-radius: 50%;
 }
 #mainContent .iconFlex .textFour p, section .iconFlex .textFour p {
   text-align: left;
@@ -424,6 +459,9 @@ main .top .darkButton {
 #mainContent .discover .flexContainer .partOne, section .discover .flexContainer .partOne {
   width: 50%;
   transform: translate(-330px, -50px);
+}
+#mainContent .discover .flexContainer .partOne img, section .discover .flexContainer .partOne img {
+  box-shadow: 19px 20px 0 0 #0CADC0;
 }
 #mainContent .discover .flexContainer .partTwo, section .discover .flexContainer .partTwo {
   width: 50%;
@@ -444,13 +482,17 @@ main .top .darkButton {
   width: 50%;
   transform: translate(290px, 80px);
 }
+#mainContent .discover .flexContainer .partFour img, section .discover .flexContainer .partFour img {
+  box-shadow: -12px 15px 0px 6px #0CADC0;
+}
 #mainContent .discover .read, section .discover .read {
   background-color: #c1cdf6;
   padding: 4px 20px 4px 20px;
 }
 #mainContent .search h5, section .search h5 {
   margin-bottom: 0.1px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #mainContent .search p, section .search p {
   text-align: center;
@@ -465,7 +507,7 @@ main .top .darkButton {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
-  margin-left: 42.5%;
+  margin-left: 42%;
 }
 
 .banner {
@@ -495,6 +537,6 @@ footer {
   display: flex;
 }
 footer p {
-  position: relative;
-  left: 400px;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */

@@ -13,9 +13,10 @@ main {
             
             .imgContainer {
                 width: 40%; 
-                
+                                
                 img {
-                    margin-left: 240px;
+                    margin-left: 190px;
+                    box-shadow: -8px 11px 0px 2px variables.$turquoise;
                 }
             }
     
@@ -68,6 +69,27 @@ main {
             width: 50%;
             margin-top: 40px;
             
+            .first {
+                width: 20%;
+                display: flex;
+                flex-wrap: wrap;
+
+                border: 2px solid red;
+            }
+
+            .firstOne {
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                
+                border: 2px solid red;
+            }
+            
+            svg {
+                background-color: variables.$turquoise;
+                border-radius: 50%;
+            }
+
             p {
                 text-align: left;
                 margin-top: -30px;
@@ -76,6 +98,11 @@ main {
         .textTwo {
             width: 50%;
             margin-top: 40px;
+
+            svg {
+                background-color: variables.$turquoise;
+                border-radius: 50%;
+            }
 
             p {
                 text-align: left;
@@ -86,6 +113,11 @@ main {
             width: 50%;
             margin-bottom: 90px;
 
+            svg {
+                background-color: variables.$turquoise;
+                border-radius: 50%;
+            }
+
             p {
                 text-align: left;
                 margin-top: -30px;
@@ -93,6 +125,11 @@ main {
         }
         .textFour {
             width: 50%;
+
+            svg {
+                background-color: variables.$turquoise;
+                border-radius: 50%;
+            }
 
             p {
                 text-align: left;
@@ -113,6 +150,10 @@ main {
         .partOne {
             width:50%;
             transform: translate(-330px, -50px);
+
+            img {
+            box-shadow: 19px 20px 0 0 variables.$turquoise;
+            }
         }
 
         .partTwo {
@@ -138,6 +179,10 @@ main {
         .partFour {
             width: 50%;
             transform: translate(290px, 80px);
+
+            img {
+            box-shadow: -12px 15px 0px 6px variables.$turquoise;
+            }
         }
     }
 
@@ -150,11 +195,12 @@ main {
 
 } 
 
-    .search {
-    
+    .search {        
+
         h5 {
             margin-bottom: 0.1px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
         }
 
         p {
@@ -171,7 +217,8 @@ main {
             font-size: 20px;
             line-height: 28px;
             letter-spacing: 2px;
-            margin-left: 42.5%;
+            margin-left: 42%;
+                        
         }
     }
 }

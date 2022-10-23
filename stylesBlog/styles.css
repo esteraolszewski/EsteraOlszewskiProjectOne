@@ -464,6 +464,6 @@ footer {
   display: flex;
 }
 footer p {
-  position: relative;
-  left: 400px;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
