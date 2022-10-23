@@ -243,7 +243,7 @@ h1, h2, button {
   font-family: "Pacifico";
 }
 
-.mainMenu, p, input {
+.mainMenu, p, input, textarea {
   font-family: "Lato";
 }
 
@@ -258,7 +258,7 @@ h1, .mainMenu a {
   color: #1A315C;
 }
 
-input, footer {
+input, footer, textarea {
   color: #FFFFFF;
 }
 
@@ -275,16 +275,28 @@ h1 {
   padding-bottom: 50px;
 }
 
-p, input, button {
+p, input, button, textarea {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 4px solid red;
+}
+nav .textilee {
+  width: 20%;
+  border: 4px solid red;
+}
 nav .mainMenu {
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   margin-left: 850px;
+  border: 4px solid red;
 }
 nav a:hover {
   border-bottom: 3px solid #0CADC0;
@@ -295,36 +307,52 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 65vh;
   width: 100vw;
 }
 
 main {
   background-color: #CCEDFB;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-main .form {
+main .formSection {
   background-color: #114e54;
-  width: 60%;
+  width: 50%;
+  transform: translate(20px, -150px);
+  box-shadow: 30px 30px 0 0 #0CADC0;
 }
-main .form input[type=text] {
+main .formSection .form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .formSection .form input[type=text] {
   background-color: #114e54;
   border: none;
   border-bottom: 2px solid #0CADC0;
   padding: 20px;
+  width: 40%;
+  margin: 50px 50px 40px 0;
 }
-main .form input[type=email] {
+main .formSection .form input[type=email] {
   background-color: #114e54;
   border: none;
   border-bottom: 2px solid #0CADC0;
   padding: 20px;
+  width: 40%;
+  margin-bottom: 40px;
 }
-main .form textarea {
+main .formSection .form textarea {
   background-color: #114e54;
   border: none;
   border: 2px solid #0CADC0;
   padding: 20px;
+  width: 90%;
+  margin: 20px 20px 0 0;
 }
-main .form button {
+main .formSection .form button {
   background-color: #c1cdf6;
   border: none;
   padding-top: 5px;
@@ -334,9 +362,19 @@ main .form button {
   justify-content: center;
   margin: 40px;
 }
-main section {
+main .contact {
   display: flex;
   flex-direction: column;
+}
+main .contact .contactBlurb {
+  margin: 150px 200px 0 0;
+}
+main .contact .contactBlurb .socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .contact .contactBlurb .socials .left {
+  margin-left: -80px;
 }
 
 .wrapper {

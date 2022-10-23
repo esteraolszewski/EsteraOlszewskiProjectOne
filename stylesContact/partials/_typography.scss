@@ -10,7 +10,7 @@ h1, h2, button {
     font-family: variables.$headingFont;
 }
 
-.mainMenu, p, input {
+.mainMenu, p, input, textarea {
     font-family: variables.$otherFont;
 }
 
@@ -25,7 +25,7 @@ h1, .mainMenu a {
     color: variables.$darkBlue;
 }
 
-input, footer {
+input, footer, textarea {
     color: variables.$white;
 }
 
@@ -42,7 +42,7 @@ h1 {
     padding-bottom: 50px;
 }
 
-p, input, button {
+p, input, button, textarea {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 2px;
