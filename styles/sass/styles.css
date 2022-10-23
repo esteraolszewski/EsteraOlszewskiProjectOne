@@ -320,31 +320,40 @@ header {
   width: 100vw;
 }
 
-.gallery {
+.gallerySection {
   background: #114e54;
-  width: 100vw;
+}
+.gallerySection .gallery {
   display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0 20px 0;
+}
+.gallerySection .gallery li {
+  margin: 0 20px 0 20px;
 }
 
 main .scissors {
-  position: absolute;
-  top: 500px;
-  left: -10px;
+  transform: translate(0, -400px);
 }
-main .header .imgContainer {
+main .top {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
-  align-items: center;
-  background-color: #0CADC0;
 }
-main .header .textContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+main .top .imgContainer {
+  width: 40%;
 }
-main .header .darkButton {
+main .top .textContainer {
+  width: 60%;
+}
+main .top .textContainer h3 {
+  margin-bottom: -4px;
+}
+main .top .textContainer p {
+  margin-bottom: 50px;
+}
+main .top .darkButton {
   background-color: #1A315C;
   padding-left: 20px;
   padding-right: 20px;
@@ -358,8 +367,7 @@ main .header .darkButton {
 
 #mainContent, section {
   background: #CCEDFB;
-  display: flex;
-  flex-direction: row-reverse;
+  padding-bottom: 80px;
 }
 #mainContent .iconFlex p, section .iconFlex p {
   color: #1E1713;
@@ -373,70 +381,88 @@ main .header .darkButton {
 }
 #mainContent .iconFlex .textOne, section .iconFlex .textOne {
   width: 50%;
+  margin-top: 40px;
 }
 #mainContent .iconFlex .textOne p, section .iconFlex .textOne p {
   text-align: left;
+  margin-top: -30px;
 }
 #mainContent .iconFlex .textTwo, section .iconFlex .textTwo {
   width: 50%;
+  margin-top: 40px;
 }
 #mainContent .iconFlex .textTwo p, section .iconFlex .textTwo p {
   text-align: left;
+  margin-top: -30px;
 }
 #mainContent .iconFlex .textThree, section .iconFlex .textThree {
   width: 50%;
+  margin-bottom: 90px;
 }
 #mainContent .iconFlex .textThree p, section .iconFlex .textThree p {
   text-align: left;
+  margin-top: -30px;
 }
 #mainContent .iconFlex .textFour, section .iconFlex .textFour {
   width: 50%;
 }
 #mainContent .iconFlex .textFour p, section .iconFlex .textFour p {
   text-align: left;
+  margin-top: -30px;
 }
-#mainContent .flexContainer, section .flexContainer {
+#mainContent .discover, section .discover {
   background: #114e54;
+  padding-bottom: 10px;
+}
+#mainContent .discover .flexContainer, section .discover .flexContainer {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
 }
-#mainContent .flexContainer .partOne, section .flexContainer .partOne {
-  text-align: right;
+#mainContent .discover .flexContainer .partOne, section .discover .flexContainer .partOne {
+  width: 50%;
+  transform: translate(-330px, -50px);
 }
-#mainContent .flexContainer .partThree, section .flexContainer .partThree {
+#mainContent .discover .flexContainer .partTwo, section .discover .flexContainer .partTwo {
+  width: 50%;
+}
+#mainContent .discover .flexContainer .partTwo p, section .discover .flexContainer .partTwo p {
   text-align: left;
 }
-#mainContent .read, section .read {
-  background-color: #c1cdf6;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+#mainContent .discover .flexContainer .partThree, section .discover .flexContainer .partThree {
+  width: 50%;
 }
-#mainContent .find, section .find {
+#mainContent .discover .flexContainer .partThree h4, #mainContent .discover .flexContainer .partThree p, section .discover .flexContainer .partThree h4, section .discover .flexContainer .partThree p {
+  text-align: right;
+}
+#mainContent .discover .flexContainer .partThree .read, section .discover .flexContainer .partThree .read {
+  margin-left: 485px;
+}
+#mainContent .discover .flexContainer .partFour, section .discover .flexContainer .partFour {
+  width: 50%;
+  transform: translate(290px, 80px);
+}
+#mainContent .discover .read, section .discover .read {
+  background-color: #c1cdf6;
+  padding: 4px 20px 4px 20px;
+}
+#mainContent .search h5, section .search h5 {
+  margin-bottom: 0.1px;
+  text-align: center;
+}
+#mainContent .search p, section .search p {
+  text-align: center;
+  padding-bottom: 40px;
+}
+#mainContent .search .find, section .search .find {
   background-color: #1A315C;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 6px;
+  padding: 5px 30px 6px 30px;
   margin-top: 20px;
   margin-bottom: 80px;
   color: #FFFFFF;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 2px;
-}
-#mainContent .search, section .search {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#mainContent h5, section h5 {
-  margin-bottom: 0.1px;
-}
-#mainContent p, section p {
-  text-align: center;
+  margin-left: 42.5%;
 }
 
 .banner {
