@@ -10,7 +10,7 @@ h1, h2, h3, h4, button {
     font-family: variables.$headingFont;
 }
 
-p, .mainMenu, li, input, a {
+p, .mainMenu, li, input, textarea, a {
     font-family: variables.$otherFont;
 }
 
@@ -52,7 +52,7 @@ h3, h4 {
     letter-spacing: 2.9px;
 }
 
-p, #white, input {
+p, #white, input, textarea {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 2px;

@@ -1,35 +1,69 @@
 @use "./variables";
 
 main {
-    section {
-        background-color: variables.$skyBlue;
-
-        .colour {
-            background-color: variables.$teal;
+    background-color: variables.$skyBlue; 
+     
+    .two {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     
-        }
-
-        .side {
+        .collect {
             background-color: variables.$teal;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: flex-end;
+            width: 52%; 
+
+            #fabric {
+                transform: translate(-2px, -200px);
+            }
+
+            .collection {
+                display: flex;
+                flex-direction: column;
+                width: 75%;
+                margin-left: 200px;
+
+                h3 {
+                    margin-top: -100px;
+                }
+            }
         }
 
-        #fabric {
-            position: relative;
-            bottom: 180px; 
-            width: 60%;
-            
-        }
+        .aside {
+            background-color: variables.$teal;
+            width: 20%;
+            height: 70%;
+            margin-top: 150px;
 
-        .collection {
-            display: flex;
-            flex-direction: column;
-            width: 60%;
+            .side {
+                
+                img {
+                    transform: translate(15px, -30px);
+                    margin-bottom: -60px;
+                }
+
+                h3 {
+                    margin-left: 15px;
+                }
+
+                p {
+                    margin-top: -30px;
+                    margin-bottom: -2px;
+                    margin-left: 15px;
+                }
+
+                a {
+                    margin-left: 15px;
+                }
+
+                ul {
+                    margin-top: -30px;
+                    list-style: disc;
+                }
+                            
+            }
+        }     
+    }
     
-        }
 
         .commentOne {
             width: 60%;
@@ -61,12 +95,16 @@ main {
         }
 
     .form {
+        display: flex;
+        flex-wrap: wrap;
 
         input[type=text] {
             background-color: variables.$skyBlue;
             border: none;
             border-bottom: 2px solid variables.$turquoise;
             padding: 20px;
+            width: 28%;
+            margin: 0 50px 40px 0;
         }
 
         input[type=email] {
@@ -74,6 +112,8 @@ main {
             border: none;
             border-bottom: 2px solid variables.$turquoise;
             padding: 20px;
+            width: 28%;
+            margin-bottom: 40px;
         }
 
         textarea {
@@ -81,6 +121,8 @@ main {
             border: none;
             border: 2px solid variables.$turquoise;
             padding: 20px;
+            width: 60%;
+            
         }
     }
 
@@ -92,6 +134,5 @@ main {
         padding-bottom: 5px;
         margin-top: 40px;
         margin-bottom: 80px;
-    }
-    }
+    }   
 }
