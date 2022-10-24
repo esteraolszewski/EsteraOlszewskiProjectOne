@@ -2,15 +2,17 @@
 
 nav {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+
+    h2 {
+        transform: translate(0, 20px);
+    }
     
     .mainMenu {
         width: 50%;
         display: flex;
         justify-content: space-evenly;
         margin-left: 850px;
-        
     }
             a:hover {
                 border-bottom: 3px solid variables.$turquoise;

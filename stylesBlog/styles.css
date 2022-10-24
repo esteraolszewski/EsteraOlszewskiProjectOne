@@ -310,8 +310,10 @@ p, #white, input, textarea {
 
 nav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+}
+nav h2 {
+  transform: translate(0, 20px);
 }
 nav .mainMenu {
   width: 50%;

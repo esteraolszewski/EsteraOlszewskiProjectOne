@@ -3,9 +3,11 @@
 
 nav {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    
+
+    h2 {
+        transform: translate(0, 20px);
+    }
         .mainMenu {
             width: 50%;
             display: flex;
