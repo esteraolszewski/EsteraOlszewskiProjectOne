@@ -3,7 +3,7 @@
 
 main {
     .scissors {
-        transform: translate(0, -400px);
+        transform: translate(0, -300px);
        }
         
         .top {
@@ -68,33 +68,32 @@ main {
         .textOne {
             width: 50%;
             margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
             
             .first {
-                width: 20%;
                 display: flex;
                 flex-wrap: wrap;
 
-                border: 2px solid red;
+                svg {
+                    background-color: variables.$turquoise;
+                    border-radius: 50%;
+                }
             }
 
             .firstOne {
-                width: 90%;
                 display: flex;
                 flex-wrap: wrap;
 
-                border: 2px solid red;
+                p {
+                    text-align: left;
+                    margin-top: -30px;
+                }
             }
-            
-            svg {
-                background-color: variables.$turquoise;
-                border-radius: 50%;
-            }
-
-            p {
-                text-align: left;
-                margin-top: -30px;
-            }
+        
         }
+        
+
         .textTwo {
             width: 50%;
             margin-top: 40px;
@@ -149,7 +148,7 @@ main {
 
         .partOne {
             width:50%;
-            transform: translate(-330px, -50px);
+            transform: translate(-140px, -50px);
 
             img {
             box-shadow: 19px 20px 0 0 variables.$turquoise;
@@ -157,7 +156,13 @@ main {
         }
 
         .partTwo {
-            width: 50%;
+            width: 43%;
+            margin-left: 80px;
+
+            h4 {
+                margin-top: 80px;
+                margin-bottom: -20px;
+            }
             
             p {
                 text-align: left;
@@ -165,20 +170,28 @@ main {
         }
 
         .partThree {
-            width: 50%;
+            width: 43%;
+            margin-right: 80px;
 
-            h4, p {
+            h4 {
+                text-align: right;
+                margin-bottom: -20px;
+                margin-top: 80px;
+            }
+            
+            p {
                 text-align: right;
             }
 
             .read {
-                margin-left: 485px;
+                
+                margin-left: 400px;
             }
         }
 
         .partFour {
             width: 50%;
-            transform: translate(290px, 80px);
+            transform: translate(106px, 80px);
 
             img {
             box-shadow: -12px 15px 0px 6px variables.$turquoise;

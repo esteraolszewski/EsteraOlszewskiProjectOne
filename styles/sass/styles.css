@@ -307,13 +307,14 @@ nav {
   justify-content: space-between;
 }
 nav h2 {
-  transform: translate(0, 20px);
+  transform: translate(0, 10px);
 }
 nav .mainMenu {
   width: 50%;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 850px;
+  margin-left: 650px;
+  margin-top: -30px;
 }
 nav a:hover {
   border-bottom: 3px solid #0CADC0;
@@ -342,7 +343,7 @@ header {
 }
 
 main .scissors {
-  transform: translate(0, -400px);
+  transform: translate(0, -300px);
 }
 main .top {
   display: flex;
@@ -394,24 +395,22 @@ main .top .darkButton {
 #mainContent .iconFlex .textOne, section .iconFlex .textOne {
   width: 50%;
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 #mainContent .iconFlex .textOne .first, section .iconFlex .textOne .first {
-  width: 20%;
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
 }
-#mainContent .iconFlex .textOne .firstOne, section .iconFlex .textOne .firstOne {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  border: 2px solid red;
-}
-#mainContent .iconFlex .textOne svg, section .iconFlex .textOne svg {
+#mainContent .iconFlex .textOne .first svg, section .iconFlex .textOne .first svg {
   background-color: #0CADC0;
   border-radius: 50%;
 }
-#mainContent .iconFlex .textOne p, section .iconFlex .textOne p {
+#mainContent .iconFlex .textOne .firstOne, section .iconFlex .textOne .firstOne {
+  display: flex;
+  flex-wrap: wrap;
+}
+#mainContent .iconFlex .textOne .firstOne p, section .iconFlex .textOne .firstOne p {
   text-align: left;
   margin-top: -30px;
 }
@@ -460,29 +459,40 @@ main .top .darkButton {
 }
 #mainContent .discover .flexContainer .partOne, section .discover .flexContainer .partOne {
   width: 50%;
-  transform: translate(-330px, -50px);
+  transform: translate(-140px, -50px);
 }
 #mainContent .discover .flexContainer .partOne img, section .discover .flexContainer .partOne img {
   box-shadow: 19px 20px 0 0 #0CADC0;
 }
 #mainContent .discover .flexContainer .partTwo, section .discover .flexContainer .partTwo {
-  width: 50%;
+  width: 43%;
+  margin-left: 80px;
+}
+#mainContent .discover .flexContainer .partTwo h4, section .discover .flexContainer .partTwo h4 {
+  margin-top: 80px;
+  margin-bottom: -20px;
 }
 #mainContent .discover .flexContainer .partTwo p, section .discover .flexContainer .partTwo p {
   text-align: left;
 }
 #mainContent .discover .flexContainer .partThree, section .discover .flexContainer .partThree {
-  width: 50%;
+  width: 43%;
+  margin-right: 80px;
 }
-#mainContent .discover .flexContainer .partThree h4, #mainContent .discover .flexContainer .partThree p, section .discover .flexContainer .partThree h4, section .discover .flexContainer .partThree p {
+#mainContent .discover .flexContainer .partThree h4, section .discover .flexContainer .partThree h4 {
+  text-align: right;
+  margin-bottom: -20px;
+  margin-top: 80px;
+}
+#mainContent .discover .flexContainer .partThree p, section .discover .flexContainer .partThree p {
   text-align: right;
 }
 #mainContent .discover .flexContainer .partThree .read, section .discover .flexContainer .partThree .read {
-  margin-left: 485px;
+  margin-left: 400px;
 }
 #mainContent .discover .flexContainer .partFour, section .discover .flexContainer .partFour {
   width: 50%;
-  transform: translate(290px, 80px);
+  transform: translate(106px, 80px);
 }
 #mainContent .discover .flexContainer .partFour img, section .discover .flexContainer .partFour img {
   box-shadow: -12px 15px 0px 6px #0CADC0;

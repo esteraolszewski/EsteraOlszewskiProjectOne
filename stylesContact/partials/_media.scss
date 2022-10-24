@@ -1,12 +1,23 @@
 @use "./variables";
 
-@media (max-width: px) {
+@media (max-width: 1190px) {
+    .mainMenu {
+        display: flex;
+        flex-direction: column;
+    }
 
-
+    .contact {
+        margin-left: 250px;
+        margin-top: -200px;
+        margin-bottom: 40px;
+    }
 
 }
 
-
+// Change form size
+@media (max-width: 900px) {
+    
+}
 
 
 

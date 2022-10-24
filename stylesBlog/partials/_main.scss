@@ -14,7 +14,7 @@ main {
             box-shadow: 10px 12px 0 8px variables.$turquoise; 
 
             #fabric {
-                transform: translate(-2px, -200px);
+                transform: translate(-2px, -150px);
                 box-shadow: 32px 20px 0 0 variables.$turquoise;
             }
 
@@ -22,17 +22,18 @@ main {
                 display: flex;
                 flex-direction: column;
                 width: 75%;
-                margin-left: 200px;
+                margin-left: 100px;
 
                 h3 {
                     margin-top: -100px;
+                    margin-bottom: 5px;
                 }
             }
         }
 
         .aside {
             background-color: variables.$teal;
-            width: 20%;
+            width: 25%;
             height: 70%;
             margin-top: 150px;
 

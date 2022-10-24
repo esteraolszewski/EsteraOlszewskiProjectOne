@@ -287,13 +287,14 @@ nav {
 }
 nav .textilee {
   width: 20%;
-  transform: translate(0, 20px);
+  transform: translate(0, 10px);
 }
 nav .mainMenu {
   width: 50%;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 850px;
+  margin-left: 650px;
+  margin-top: -30px;
 }
 nav a:hover {
   border-bottom: 3px solid #0CADC0;
@@ -374,6 +375,17 @@ main .contact .contactBlurb .socials .left {
   margin-left: -80px;
 }
 
+@media (max-width: 1190px) {
+  .mainMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact {
+    margin-left: 250px;
+    margin-top: -200px;
+    margin-bottom: 40px;
+  }
+}
 .wrapper {
   width: 90%;
   margin: 0 auto;
