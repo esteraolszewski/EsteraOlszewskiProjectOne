@@ -2,6 +2,7 @@
 
 
 main {
+    
     .scissors {
         transform: translate(0, -300px);
        }
@@ -77,6 +78,7 @@ main {
 
                 svg {
                     background-color: variables.$turquoise;
+                    box-shadow: 0px 0px 0px 10px variables.$turquoise;
                     border-radius: 50%;
                 }
             }
@@ -100,6 +102,7 @@ main {
 
             svg {
                 background-color: variables.$turquoise;
+                box-shadow: 0px 0px 0px 10px variables.$turquoise;
                 border-radius: 50%;
             }
 
@@ -114,6 +117,7 @@ main {
 
             svg {
                 background-color: variables.$turquoise;
+                box-shadow: 0px 0px 0px 10px variables.$turquoise;
                 border-radius: 50%;
             }
 
@@ -127,6 +131,7 @@ main {
 
             svg {
                 background-color: variables.$turquoise;
+                box-shadow: 0px 0px 0px 10px variables.$turquoise;
                 border-radius: 50%;
             }
 

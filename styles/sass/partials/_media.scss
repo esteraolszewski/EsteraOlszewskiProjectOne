@@ -1,20 +1,16 @@
 @use "./variables";
 
 @media (max-width: 1190px) {
+    .mainMenu {
+        display: flex;
+        flex-direction: column;
+    }       
+
+    .imgContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
    
-
-@media (max-width: px) {
-
-
-
-}
-
-
-
-
-
-@media (max-width: 320px) {
-
-
-
-}

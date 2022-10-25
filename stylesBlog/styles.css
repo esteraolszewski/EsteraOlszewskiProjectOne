@@ -447,6 +447,12 @@ main button {
   margin-bottom: 80px;
 }
 
+@media (max-width: 1190px) {
+  .mainMenu {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .wrapper {
   width: 90%;
   margin: 0 auto;

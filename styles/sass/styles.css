@@ -404,6 +404,7 @@ main .top .darkButton {
 }
 #mainContent .iconFlex .textOne .first svg, section .iconFlex .textOne .first svg {
   background-color: #0CADC0;
+  box-shadow: 0px 0px 0px 10px #0CADC0;
   border-radius: 50%;
 }
 #mainContent .iconFlex .textOne .firstOne, section .iconFlex .textOne .firstOne {
@@ -420,6 +421,7 @@ main .top .darkButton {
 }
 #mainContent .iconFlex .textTwo svg, section .iconFlex .textTwo svg {
   background-color: #0CADC0;
+  box-shadow: 0px 0px 0px 10px #0CADC0;
   border-radius: 50%;
 }
 #mainContent .iconFlex .textTwo p, section .iconFlex .textTwo p {
@@ -432,6 +434,7 @@ main .top .darkButton {
 }
 #mainContent .iconFlex .textThree svg, section .iconFlex .textThree svg {
   background-color: #0CADC0;
+  box-shadow: 0px 0px 0px 10px #0CADC0;
   border-radius: 50%;
 }
 #mainContent .iconFlex .textThree p, section .iconFlex .textThree p {
@@ -443,6 +446,7 @@ main .top .darkButton {
 }
 #mainContent .iconFlex .textFour svg, section .iconFlex .textFour svg {
   background-color: #0CADC0;
+  box-shadow: 0px 0px 0px 10px #0CADC0;
   border-radius: 50%;
 }
 #mainContent .iconFlex .textFour p, section .iconFlex .textFour p {
@@ -528,6 +532,16 @@ main .top .darkButton {
   max-width: 100%;
 }
 
+@media (max-width: 1190px) {
+  .mainMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .wrapper {
   width: 90%;
   margin: 0 auto;
