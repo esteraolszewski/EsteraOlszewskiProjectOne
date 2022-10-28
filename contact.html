@@ -17,7 +17,6 @@
     <!-- Skip Link -->
     <a href="#name" class="skipLink">Skip to Main Content</a>
 
-
     <!-- Header -->
     <header>
         <!-- Navigation -->
@@ -60,7 +59,7 @@
                     <label for="comment"></label>
                     <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Message" required></textarea>
 
-                    <button type="submit">submit</button>
+                    <button type="submit" id="button">submit</button>
                 </form>
                 </div>
         </section>
@@ -105,5 +104,37 @@
         </div>
     </footer>
 
+<!-- Modal Section -->
+
+    <div class="modalOverlay">
+        <div class="modalContainer">
+            <button class="closeButton">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <h3>Thank you for submitting your message!</h3>
+            <p>We will reach out to you as soon as possible.</p>
+        </div>
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+<script>
+
+// Pseudo Code
+// Step 1: Listen for when the form submits
+// Step 2: On submit, pop up a modal thanking the user for submitting a message
+    
+document.getElementById('button').addEventListener('click', function() {
+    document.querySelector('.modalOverlay').style.display = 'flex';
+});
+
+
+
+    
+</script>
+
 </body>
 </html>
+
