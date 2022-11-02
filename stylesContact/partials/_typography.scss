@@ -47,3 +47,11 @@ p, input, button, textarea {
     line-height: 28px;
     letter-spacing: 2px;
 }
+
+.modalContainer {
+    h3 {
+       font-size: 30px;
+       letter-spacing: 1.7px;
+       font-family: variables.$headingFont; 
+    }
+}

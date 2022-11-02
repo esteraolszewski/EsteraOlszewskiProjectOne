@@ -108,9 +108,9 @@
 
     <div class="modalOverlay">
         <div class="modalContainer">
-            <button class="closeButton">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </button>
+            
+            <svg class="closeButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+            
             <h3>Thank you for submitting your message!</h3>
             <p>We will reach out to you as soon as possible.</p>
         </div>
@@ -120,14 +120,29 @@
 
     <!-- JAVASCRIPT -->
 
+<!-- HELP FROM TUTORIAL - YOUTUBE: RICHARDCODES -->
+
 <script>
 
-// Pseudo Code
+// Pseudo Code:
 // Step 1: Listen for when the form submits
 // Step 2: On submit, pop up a modal thanking the user for submitting a message
-    
-document.getElementById('button').addEventListener('click', function() {
+// Step 3: All required fields are required to be filled in by user??**
+// Step 4: User can close the popup modal by clicking the X - Modal closes and back to main Contact page
+   
+
+// Made the id button clickable 
+document.getElementById('button').addEventListener('click', function(event) {
+    // Once clicked, the class of modalOverlay appears (no longer display:none)
     document.querySelector('.modalOverlay').style.display = 'flex';
+
+    event.preventDefault();
+});
+
+// Same as above, made the closeButton clickable
+document.querySelector('.closeButton').addEventListener('click', function() {
+    // Once clicked, the class of modalOverlay changed back to display:none
+    document.querySelector('.modalOverlay').style.display = 'none';
 });
 
 
