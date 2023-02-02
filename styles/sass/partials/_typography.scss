@@ -6,7 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap');
 
-
+img {
+    max-width: 100%;
+    display: block;
+}
 
 // html {
 //     /* if we set our root element font-size to 125%, then 1 rem = 20px */

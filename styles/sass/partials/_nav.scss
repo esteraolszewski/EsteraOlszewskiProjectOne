@@ -2,18 +2,19 @@
 
 
 nav {
+    .wrapper {
     display: flex;
     justify-content: space-between;
-
+}
     h2 {
-        transform: translate(0, 10px);
+        // transform: translate(0, 10px);
     }
         .mainMenu {
             width: 50%;
             display: flex;
             justify-content: space-evenly;
-            margin-left: 650px;  
-            margin-top: -30px;          
+            // margin-left: 650px;  
+            // margin-top: -30px;          
         }
                 a:hover {
                     border-bottom: 3px solid variables.$turquoise;
